@@ -1,0 +1,25 @@
+name: Paper-grounded correction
+description: Report a factual or traceability issue in the companion.
+title: "[Correction]: "
+labels: [correction]
+body:
+  - type: textarea
+    id: issue
+    attributes:
+      label: What should be corrected?
+      description: Identify the companion file and statement.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Paper location
+      description: Give the section, table, figure, or page that supports the correction.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed wording
+      description: Suggest concise replacement text if possible.
+
