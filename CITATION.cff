@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "Please cite the published review article."
+title: "Financial Report Extraction with NLP: Research Companion"
+type: dataset
+version: 1.0.1
+date-released: 2026-10-31
+authors:
+  - family-names: Alarfaj
+    given-names: Fawaz Khaled
+    affiliation: "Department of Management Information Systems, School of Business, King Faisal University"
+keywords:
+  - financial natural language processing
+  - financial narrative processing
+  - document AI
+  - information extraction
+  - ESG
+  - Arabic NLP
+  - Saudi Arabia
+license: CC-BY-4.0
+preferred-citation:
+  type: article
+  title: "A Comprehensive Study on Automated Extraction from Financial Reports Using NLP Approaches"
+  authors:
+    - family-names: Alarfaj
+      given-names: Fawaz Khaled
+  journal: "Arabian Journal for Science and Engineering"
+  year: 2026
+  date-published: 2026-02-28
+  volume: 51
+  start: 11843
+  end: 11891
+  doi: "10.1007/s13369-026-11157-6"
+
