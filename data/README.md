@@ -1,18 +1,22 @@
 # Derived review summaries
 
-This directory contains three small CSV files transcribed from the aggregate distributions reported in the paper:
+This directory contains four small CSV files transcribed or normalized from aggregate information reported in the paper:
 
 - `review_counts_by_year.csv`
 - `review_counts_by_method.csv`
 - `review_counts_by_application.csv`
+- `search_flow_counts.csv`
 
-All three files total 231 studies. Percentages are those reported in the paper and may be subject to ordinary rounding.
+The three distribution files each total 231 studies. Percentages reproduce the values printed in the paper. For example, `23/231` is approximately `9.96%`, but Table 5 prints `9.9%`; retaining the printed value keeps the column total at `100.0%`.
+
+`search_flow_counts.csv` normalizes Figure 4 into an auditable sequence. Figure 4 labels `886` as “Duplicate records removed,” but the subsequent screening count shows that `886` is the number remaining after duplicate removal. Given `1,110` identified records, the implied number of duplicates removed is `224`.
 
 ## Provenance and limitations
 
 - Source: the article identified by DOI `10.1007/s13369-026-11157-6`, especially its review-methodology distribution tables.
 - These files contain aggregate facts only; they do not reproduce the paper's prose, figures, or publisher layout.
 - They are not a study-level systematic-review database, screening log, or independent replication.
+- The article does not publish a 231-row extraction sheet linking each included study to its method and application categories, so those study-level fields cannot be reconstructed reliably from the reference list alone.
 - They should not be used to infer attributes of individual studies.
 - Cite the paper when using these counts in scholarship.
 
