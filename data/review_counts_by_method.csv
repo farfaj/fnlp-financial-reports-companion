@@ -1,0 +1,7 @@
+method_type,included_studies,percentage
+Traditional ML (SVM/RF/XGBoost),46,19.9
+Deep learning (CNN/RNN/LSTM/GRU),30,13.0
+Transformer-based models,93,40.3
+LLM-based methods (GPT/RAG/prompts),39,16.9
+Hybrid/Document AI,23,9.9
+
