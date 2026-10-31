@@ -2,12 +2,15 @@ cff-version: 1.2.0
 message: "Please cite the published review article."
 title: "Financial Report Extraction with NLP: Research Companion"
 type: dataset
-version: 1.0.1
-date-released: 2026-10-31
+version: 1.0.2
+date-released: 2026-11-01
+repository-code: "https://github.com/farfaj/fnlp-financial-reports-companion"
+url: "https://github.com/farfaj/fnlp-financial-reports-companion"
 authors:
   - family-names: Alarfaj
     given-names: Fawaz Khaled
     affiliation: "Department of Management Information Systems, School of Business, King Faisal University"
+    orcid: "https://orcid.org/0000-0002-6598-6240"
 keywords:
   - financial natural language processing
   - financial narrative processing

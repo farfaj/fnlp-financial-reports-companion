@@ -2,6 +2,16 @@
 
 All notable companion changes will be documented here.
 
+## 1.0.2 — 2026-11-01
+
+- Corrected the Figure 4 search flow to 1,110 identified records, 886 after deduplication, and an implied 224 duplicates removed; added a machine-readable flow CSV.
+- Added a final-section/page map and corrected RQ routing notes for the publication's internal cross-reference offsets.
+- Clarified the relationship among Figure 5, Table 5, and the companion's navigational taxonomy.
+- Labeled companion-authored deployment, evaluation, benchmark, and tool-selection guidance explicitly as synthesis.
+- Corrected or qualified the CFIE name, Financial PhraseBank labels, FinCausal languages, Spark NLP coverage, and Section 9 application count.
+- Added the author's ORCID, repository URLs, and Springer Nature SharedIt link; removed the ambiguous BibTeX month.
+- Documented that the publication does not expose a reconstructable 231-row study-level extraction sheet.
+
 ## 1.0.1 — 2026-10-31
 
 - Verified the companion against the final 49-page published article.

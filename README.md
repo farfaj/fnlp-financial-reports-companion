@@ -3,13 +3,17 @@
 ## Research companion to a comprehensive FNLP review
 
 [![Paper DOI](https://img.shields.io/badge/DOI-10.1007%2Fs13369--026--11157--6-0b7285)](https://doi.org/10.1007/s13369-026-11157-6)
-[![Companion version](https://img.shields.io/badge/companion-v1.0.1-5c7cfa)](CHANGELOG.md)
+[![Companion version](https://img.shields.io/badge/companion-v1.0.2-5c7cfa)](CHANGELOG.md)
 [![License: CC BY 4.0](https://img.shields.io/badge/docs-CC%20BY%204.0-2b8a3e)](LICENSE.md)
 [![Status: documentation only](https://img.shields.io/badge/status-documentation%20only-f08c00)](#scope-and-status)
 
 This repository is the research companion to:
 
 > Fawaz Khaled Alarfaj. **A Comprehensive Study on Automated Extraction from Financial Reports Using NLP Approaches.** *Arabian Journal for Science and Engineering* 51, 11843–11891 (2026). Published online 28 February 2026. [https://doi.org/10.1007/s13369-026-11157-6](https://doi.org/10.1007/s13369-026-11157-6)
+
+**Read the paper:** [Springer Nature SharedIt full-text view][sharedit]
+
+**Permanent citation link:** [https://doi.org/10.1007/s13369-026-11157-6](https://doi.org/10.1007/s13369-026-11157-6)
 
 It turns the review's main findings into a navigable, citation-ready resource for researchers and practitioners working on financial natural language processing (FNLP), financial narrative processing (FNP), document AI, ESG analytics, and multilingual financial disclosure.
 
@@ -31,6 +35,7 @@ The paper follows the field from engineered features and ensemble learning throu
 
 - [Paper overview](docs/paper-overview.md) — purpose, contributions, research questions, and findings.
 - [Review methodology](docs/review-methodology.md) — databases, query concepts, screening rules, and the 231-study corpus.
+- [Paper map and traceability notes](docs/paper-map-and-traceability.md) — actual section locations, internal cross-reference cautions, and source boundaries.
 - [Method taxonomy](docs/method-taxonomy.md) — classical ML, ensembles, deep learning, transformers/LLMs, multimodal and explainable approaches.
 - [Tools and datasets](docs/tools-and-datasets.md) — practical selection criteria and resources discussed in the paper.
 - [Arabic–English, ESG, and Saudi context](docs/arabic-english-esg-saudi-context.md) — regional motivation and research requirements.
@@ -76,6 +81,7 @@ This release contains documentation, structured summaries, and citation metadata
 - No claim is made that the paper's reviewed methods have been reproduced by this repository.
 - No publisher-formatted article or eProof PDF is included.
 - The aggregate CSV files summarize facts reported in the paper; they are not a newly screened systematic-review database and do not contain 231 study-level records.
+- The publication does not provide a study-level extraction sheet that maps all 231 included studies to citations and categories; this companion therefore does not claim study-level reproducibility.
 - A working Python financial extraction implementation is intentionally reserved for a later phase.
 
 ## Suggested use
@@ -99,4 +105,6 @@ Corrections that improve traceability to the paper are welcome. Please read [CON
 **Fawaz Khaled Alarfaj**  
 Department of Management Information Systems, School of Business, King Faisal University, Al-Ahsa, Saudi Arabia  
 [falarfaj@kfu.edu.sa](mailto:falarfaj@kfu.edu.sa)
+
+[sharedit]: https://link.springer.com/epdf/10.1007/s13369-026-11157-6?sharing_token=fPcOKmNXc7UOaTEdiK5--_e4RwlQNchNByi7wbcMAY7Hi1hWyzeaoKPAOyZMoMkVcPPZU5svGbGS54KZomjzEByIH4UMJeLFNPhNOycslOJWqeC7myozvWibW0ofr-FkTQPv77BEIkhwN9cUVjbR-OIejJbI1Lv3Jk5z1kAXmcM%3D
 
