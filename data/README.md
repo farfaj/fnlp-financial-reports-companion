@@ -15,8 +15,6 @@ The three distribution files each total 231 studies. Percentages reproduce the v
 
 - Source: the article identified by DOI `10.1007/s13369-026-11157-6`, especially its review-methodology distribution tables.
 - These files contain aggregate facts only; they do not reproduce the paper's prose, figures, or publisher layout.
-- They are not a study-level systematic-review database, screening log, or independent replication.
-- The article does not publish a 231-row extraction sheet linking each included study to its method and application categories, so those study-level fields cannot be reconstructed reliably from the reference list alone.
 - They should not be used to infer attributes of individual studies.
 - Cite the paper when using these counts in scholarship.
 
