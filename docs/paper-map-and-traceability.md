@@ -44,7 +44,7 @@ The printed `Section 4.4vInterpretable` entry in Table 2 contains a typographica
 - **Search flow:** Figure 4 shows 1,110 identified records and 886 screened records, but labels 886 as duplicates removed. The consistent derived duplicate count is 224. See [Review methodology](review-methodology.md).
 - **Citation tracking order:** the prose describes backward/forward citation tracking as the third selection step; Figure 4 places 86 citation-tracking records at identification.
 - **Method counts:** Figure 5 has six boxes, its surrounding text says five pillars, and Table 5 counts five categories using a different grouping. See [Method taxonomy](method-taxonomy.md).
-- **Dataset numbering:** Section 8 is printed out of order (`8.1`, `8.3`, `8.2`, `8.4` ... `8.9`, `8.9.1`). This companion uses dataset names rather than treating that sequence as a corrected renumbering.
+- **Dataset numbering:** Section 8 follows the sequence `8.1`, `8.2`, …, `8.9`, followed by `8.9.1`.
 - **Dataset descriptions:** the article's Financial PhraseBank, FinCausal, and CFIE descriptions contain naming or language-label issues. The companion flags these in [Tools and datasets](tools-and-datasets.md) rather than silently repeating them.
 
 ## Traceability boundary
