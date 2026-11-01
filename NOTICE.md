@@ -1,6 +1,6 @@
 # Notice and copyright boundaries
 
-This repository is an independently prepared research companion to the article identified by DOI [10.1007/s13369-026-11157-6](https://doi.org/10.1007/s13369-026-11157-6).
+This repository is an author-maintained research companion to the article identified by DOI [10.1007/s13369-026-11157-6](https://doi.org/10.1007/s13369-026-11157-6).
 
 ## Included under the repository license
 

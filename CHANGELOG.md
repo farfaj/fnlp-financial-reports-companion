@@ -2,6 +2,13 @@
 
 All notable companion changes will be documented here.
 
+## Unreleased
+
+- Corrected the Spark NLP / Spark OCR entry to reflect Table 11 and Section 7.2.
+- Clarified that reference [164] does not document the FinCausal shared-task dataset or its languages.
+- Improved RQ6 routing and replaced outsider-style wording about the author and screening records.
+- Clarified that repository presentation notes are not a formal journal correction.
+
 ## 1.0.2 — 2026-11-01
 
 - Corrected the Figure 4 search flow to 1,110 identified records, 886 after deduplication, and an implied 224 duplicates removed; added a machine-readable flow CSV.
