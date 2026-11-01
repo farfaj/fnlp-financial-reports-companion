@@ -34,7 +34,7 @@ Table 2 points RQ1-RQ4 to Sections 4.1-4.4, RQ5 to Section 5, RQ6 to Section 7, 
 | RQ3 - real-world applications | Section 9 |
 | RQ4 - explainability gaps and hybrid/interpretable approaches | Section 6.4; Sections 10.9.3 and 11 |
 | RQ5 - tools and platforms | Section 7 |
-| RQ6 - multilingual and Arabic-English disclosures | Sections 10.1, 10.4, and especially 10.9.2 |
+| RQ6 - multilingual and Arabic-English disclosures | Sections 4.1, 10.1, 10.2, and especially 10.9.2 |
 | RQ7 - transformer/LLM risks | Sections 10 and 11 |
 
 The printed `Section 4.4vInterpretable` entry in Table 2 contains a typographical error. Section 3.1 also describes an earlier section plan that is offset from the final structure.
@@ -49,4 +49,8 @@ The printed `Section 4.4vInterpretable` entry in Table 2 contains a typographica
 
 ## Traceability boundary
 
-The article reports 231 included studies, but it does not publish a 231-row study-level extraction sheet. Its 227 references also include contextual sources, institutional materials, and tool websites. Therefore, neither the reference list nor this companion can support a defensible one-to-one reconstruction of all included-study classifications. The aggregate distributions in this repository remain traceable to Tables 3-5; study-level traceability would require the author's original screening/extraction records or a new independent review.
+The article reports 231 included studies, but it does not publish a 231-row study-level extraction sheet. Its 227 references also include contextual sources, institutional materials, and tool websites. Therefore, the reference list alone cannot support a defensible one-to-one reconstruction of all included-study classifications. This repository currently releases the aggregate distributions from Tables 3-5, not a study-level manifest. A separate verified manifest would need to be prepared from the screening and extraction records before study-level fields could be released.
+
+## Status of these notes
+
+These repository notes improve navigation and prevent known presentation issues from being repeated in the companion. They are not a formal correction notice from the journal. If the journal publishes a correction, this page should link to the version of record for that notice.

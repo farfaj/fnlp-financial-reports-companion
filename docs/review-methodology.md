@@ -85,5 +85,5 @@ Machine-readable versions are in [`data/review_counts_by_year.csv`](../data/revi
 - The CSVs are aggregate transcriptions, not the underlying screening database.
 - Category totals describe the paper's review design; they should not be treated as a universal census of FNLP.
 - The article reports a 231-study screened corpus but does not publish a study-level extraction sheet linking all included studies to citations, method categories, and application categories. The reference list also includes contextual and tool sources. A 231-row manifest therefore cannot be reconstructed reliably from the publication alone.
-- Six included studies are assigned to 2026 even though the manuscript was received on 19 November 2025. The article does not explain this timing; they may have been added or updated during revision, but that is an inference rather than a reported fact.
+- Table 3 assigns six included studies to 2026, while the manuscript record reports receipt on 19 November 2025. This repository does not publish study-level screening dates and therefore does not assign an undocumented revision-stage date to those records.
 

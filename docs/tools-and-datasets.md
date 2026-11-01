@@ -16,7 +16,7 @@ The paper compares open, research, cloud, SaaS, and proprietary options. These t
 | Financial extraction services | Daloopa; ProntoNLP/S&P Global | Structured facts, events, and signals | Enterprise access and opaque models |
 | Finance-specific language models | FinBERT variants; BloombergGPT | Sentiment, NER, QA, summarization | Task, access, and compute constraints vary |
 | Semantic/graph extraction | Ontology-based tools; financial event extraction systems | Normalized facts and queryable relations | Ontology coverage and maintenance |
-| Distributed NLP | Spark NLP | Named as an example tool in RQ5 | The paper does not provide a dedicated Spark NLP comparison row in Table 11 |
+| Spark NLP / Spark OCR (John Snow Labs) | Scalable OCR, table extraction, and finance NLP on Apache Spark | Annual reports, statements, scanned PDFs, and de-identification | Paid license for OCR and finance modules; GPU hardware may be needed for best performance |
 
 The paper's comparison is a research snapshot, not a purchasing recommendation. Product names, capabilities, prices, licenses, and availability can change; verify them with the provider.
 
@@ -43,7 +43,7 @@ The review discusses ten commonly used resources or source families:
 - **Tadawul ESG reports:** bilingual Arabic–English sustainability and ESG disclosures.
 - **Refinitiv ESG corpus:** licensed ESG indicators, narratives, and controversies.
 - **Bloomberg financial news:** proprietary financial news used for sentiment and event analysis.
-- **FinCausal:** annotated cause–effect relations in financial text. The FinCausal 2020/2022 resource discussed by the paper is English; later FinCausal editions added Spanish. The article's statement that the task targets Chinese, Arabic, and English should not be used as dataset documentation.
+- **FinCausal:** annotated cause-effect relations in financial text. The FinCausal shared-task data from 2020 and 2022 is English; later editions added Spanish. The article's language statement and its cited source [164] do not describe the FinCausal dataset.
 - **Arabic financial news resources:** Arabic-native financial sentiment and aspect analysis.
 - **CFIE (Corporate Financial Information Environment):** Lancaster University's research programme and resources for analyzing corporate financial narratives. The article expands the acronym as “Corporate Financial Information Extraction”; the CFIE project page confirms “Environment.”
 
