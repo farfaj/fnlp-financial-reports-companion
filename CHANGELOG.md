@@ -2,7 +2,7 @@
 
 All notable companion changes will be documented here.
 
-## Unreleased
+## 1.0.3 — 2026-11-01
 
 - Corrected the Spark NLP / Spark OCR entry to reflect Table 11 and Section 7.2.
 - Clarified that reference [164] does not document the FinCausal shared-task dataset or its languages.
