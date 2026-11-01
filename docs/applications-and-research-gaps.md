@@ -52,9 +52,9 @@ The paper supports the following priorities:
 4. cross-market, cross-domain, cross-lingual, and longitudinal validation;
 5. explainable-by-design symbolic–neural architectures;
 6. task- and regulation-oriented explanations rather than generic feature attribution alone;
-7. RAG with source-aware retrieval and citation-aware reasoning;
+7. RAG with citation-aware reasoning;
 8. model calibration, sensitivity analysis, and stress testing;
-9. human-in-the-loop workflows with auditable evidence and override paths;
+9. human-in-the-loop workflows with auditable evidence;
 10. governance frameworks covering privacy, bias, cost, maintenance, and regulatory change.
 
 ## A useful deployment gate

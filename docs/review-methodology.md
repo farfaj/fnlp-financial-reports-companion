@@ -16,7 +16,7 @@ The query family combines terms for:
 
 Included work addresses NLP or deep learning applied to financial, economic, or ESG text and contributes evidence about model performance, interpretability, or multilingual/bilingual use.
 
-The review excludes purely numerical forecasting and papers that are redundant or insufficiently relevant to the review's methodological and empirical focus. Hybrid text–numeric work is included when text is a primary modeling signal or when text extraction is a core component.
+The review excludes purely numerical forecasting, redundant papers, and papers lacking methodological or empirical depth. Hybrid text–numeric work is included when text is a primary modeling signal or when text extraction is a core component.
 
 ## Selection process
 
@@ -84,6 +84,4 @@ Machine-readable versions are in [`data/review_counts_by_year.csv`](../data/revi
 
 - The CSVs are aggregate transcriptions, not the underlying screening database.
 - Category totals describe the paper's review design; they should not be treated as a universal census of FNLP.
-- The article reports a 231-study screened corpus but does not publish a study-level extraction sheet linking all included studies to citations, method categories, and application categories. The reference list also includes contextual and tool sources. A 231-row manifest therefore cannot be reconstructed reliably from the publication alone.
-- Table 3 assigns six included studies to 2026, while the manuscript record reports receipt on 19 November 2025. This repository does not publish study-level screening dates and therefore does not assign an undocumented revision-stage date to those records.
 

@@ -4,7 +4,7 @@
 
 You may reuse the repository's covered original content under CC BY 4.0. A suitable attribution is:
 
-> Alarfaj, F. K. (2026). *Financial Report Extraction with NLP: Research Companion*, version 1.0.3. Companion to https://doi.org/10.1007/s13369-026-11157-6. Licensed CC BY 4.0.
+> Alarfaj, F. K. (2026). *Financial Report Extraction with NLP: Research Companion*, version 1.0.4. Companion to https://doi.org/10.1007/s13369-026-11157-6. Licensed CC BY 4.0.
 
 Indicate what you changed and link to the license.
 

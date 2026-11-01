@@ -8,8 +8,8 @@ This guide maps the final 49-page published PDF to its printed journal pages. It
 |---|---:|---|
 | 1 Introduction | 11843 | Motivation and scope |
 | 2 Research Contributions | 11844 | Contributions and comparison with prior surveys |
-| 3 Research Questions | 11845 | RQ1-RQ7 |
-| 4 Background Knowledge - Financial Narrative Processing | 11846 | FNP, financial documents, governance, ESG, and Saudi context |
+| 3 Research Questions | 11845 | RQ1–RQ7 |
+| 4 Background Knowledge – Financial Narrative Processing | 11846 | FNP, financial documents, governance, ESG, and Saudi context |
 | 5 Search Strategy | 11848 | Search, eligibility, flow, and corpus distributions |
 | 6 Review of Existing Studies | 11850 | Method-centered literature synthesis |
 | 6.1 Machine Learning and Ensemble Learning Techniques | 11850 | Classical and ensemble methods |
@@ -25,17 +25,17 @@ This guide maps the final 49-page published PDF to its printed journal pages. It
 
 ## Corrected research-question routing
 
-Table 2 points RQ1-RQ4 to Sections 4.1-4.4, RQ5 to Section 5, RQ6 to Section 7, and RQ7 to Section 8. Those numbers do not match the final article structure. For navigation, use:
+Table 2 points RQ1–RQ4 to Sections 4.1–4.4, RQ5 to Section 5, RQ6 to Section 7, and RQ7 to Section 8. Those numbers do not match the final article structure. For navigation, use:
 
 | Research question | Primary final section(s) |
 |---|---|
-| RQ1 - method evolution | Sections 6.1-6.3 |
-| RQ2 - accuracy, interpretability, and scalability trade-offs | Sections 6.2-6.4; Section 11 |
-| RQ3 - real-world applications | Section 9 |
-| RQ4 - explainability gaps and hybrid/interpretable approaches | Section 6.4; Sections 10.9.3 and 11 |
-| RQ5 - tools and platforms | Section 7 |
-| RQ6 - multilingual and Arabic-English disclosures | Sections 4.1, 10.1, 10.2, and especially 10.9.2 |
-| RQ7 - transformer/LLM risks | Sections 10 and 11 |
+| RQ1 – method evolution | Sections 6.1–6.3 |
+| RQ2 – accuracy, interpretability, and scalability trade-offs | Sections 6.2–6.4; Section 11 |
+| RQ3 – real-world applications | Section 9 |
+| RQ4 – explainability gaps and hybrid/interpretable approaches | Section 6.4; Sections 10.9.3 and 11 |
+| RQ5 – tools and platforms | Section 7 |
+| RQ6 – multilingual and Arabic–English disclosures | Sections 4.1, 10.1, 10.2, and especially 10.9.2 |
+| RQ7 – transformer/LLM risks | Sections 10 and 11 |
 
 The printed `Section 4.4vInterpretable` entry in Table 2 contains a typographical error. Section 3.1 also describes an earlier section plan that is offset from the final structure.
 
@@ -49,7 +49,7 @@ The printed `Section 4.4vInterpretable` entry in Table 2 contains a typographica
 
 ## Traceability boundary
 
-The article reports 231 included studies, but it does not publish a 231-row study-level extraction sheet. Its 227 references also include contextual sources, institutional materials, and tool websites. Therefore, the reference list alone cannot support a defensible one-to-one reconstruction of all included-study classifications. This repository currently releases the aggregate distributions from Tables 3-5, not a study-level manifest. A separate verified manifest would need to be prepared from the screening and extraction records before study-level fields could be released.
+The article reports 231 included studies, but it does not publish a 231-row study-level extraction sheet. Its 227 references also include contextual sources, institutional materials, and tool websites. Therefore, the reference list alone cannot support a defensible one-to-one reconstruction of all included-study classifications. This repository currently releases the aggregate distributions from Tables 3–5, not a study-level manifest. A separate verified manifest would need to be prepared from the screening and extraction records before study-level fields could be released.
 
 ## Status of these notes
 
