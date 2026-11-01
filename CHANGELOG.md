@@ -2,6 +2,13 @@
 
 All notable companion changes will be documented here.
 
+## 1.0.4 — 2026-11-01
+
+- Realigned the Spark OCR / Spark NLP Finance entry with the tool table's four columns.
+- Corrected the exclusion-criterion paraphrase and removed an unnecessary note about the six 2026 studies.
+- Consolidated the detailed study-manifest limitation in the paper map and shortened the README wording.
+- Aligned two research-agenda items more closely with the article and standardized en dashes in the affected documentation.
+
 ## 1.0.3 — 2026-11-01
 
 - Corrected the Spark NLP / Spark OCR entry to reflect Table 11 and Section 7.2.

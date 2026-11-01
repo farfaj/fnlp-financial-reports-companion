@@ -3,7 +3,7 @@
 ## Research companion to a comprehensive FNLP review
 
 [![Paper DOI](https://img.shields.io/badge/DOI-10.1007%2Fs13369--026--11157--6-0b7285)](https://doi.org/10.1007/s13369-026-11157-6)
-[![Companion version](https://img.shields.io/badge/companion-v1.0.3-5c7cfa)](CHANGELOG.md)
+[![Companion version](https://img.shields.io/badge/companion-v1.0.4-5c7cfa)](CHANGELOG.md)
 [![License: CC BY 4.0](https://img.shields.io/badge/docs-CC%20BY%204.0-2b8a3e)](LICENSE.md)
 [![Status: documentation only](https://img.shields.io/badge/status-documentation%20only-f08c00)](#scope-and-status)
 
@@ -80,8 +80,7 @@ This release contains documentation, structured summaries, and citation metadata
 - No trained model, model weights, executable pipeline, benchmark results, or production system are released here.
 - No claim is made that the paper's reviewed methods have been reproduced by this repository.
 - No publisher-formatted article or eProof PDF is included.
-- The aggregate CSV files summarize facts reported in the paper; they are not a newly screened systematic-review database and do not contain 231 study-level records.
-- The publication does not provide a study-level extraction sheet that maps all 231 included studies to citations and categories; this companion therefore does not claim study-level reproducibility.
+- Aggregate distributions are released; a study-level manifest is not part of this release.
 - A working Python financial extraction implementation is intentionally reserved for a later phase.
 
 ## Suggested use
