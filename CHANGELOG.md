@@ -2,6 +2,10 @@
 
 All notable companion changes will be documented here.
 
+## 1.0.5 — 2026-11-01
+
+- Corrected the traceability note to reflect Section 8's sequential dataset numbering.
+
 ## 1.0.4 — 2026-11-01
 
 - Realigned the Spark OCR / Spark NLP Finance entry with the tool table's four columns.
