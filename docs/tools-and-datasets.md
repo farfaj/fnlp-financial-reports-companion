@@ -16,10 +16,13 @@ The paper compares open, research, cloud, SaaS, and proprietary options. These t
 | Financial extraction services | Daloopa; ProntoNLP/S&P Global | Structured facts, events, and signals | Enterprise access and opaque models |
 | Finance-specific language models | FinBERT variants; BloombergGPT | Sentiment, NER, QA, summarization | Task, access, and compute constraints vary |
 | Semantic/graph extraction | Ontology-based tools; financial event extraction systems | Normalized facts and queryable relations | Ontology coverage and maintenance |
+| Distributed NLP | Spark NLP | Named as an example tool in RQ5 | The paper does not provide a dedicated Spark NLP comparison row in Table 11 |
 
 The paper's comparison is a research snapshot, not a purchasing recommendation. Product names, capabilities, prices, licenses, and availability can change; verify them with the provider.
 
 ## Practical selection questions
+
+> **Companion synthesis, not a finding of the paper.** These questions operationalize the paper's tool-comparison themes; they are not a paper table or reported result.
 
 1. Is the source born-digital, scanned, image-heavy, or XBRL?
 2. Must the system preserve table structure, coordinates, charts, footnotes, and reading order?
@@ -34,15 +37,17 @@ The paper's comparison is a research snapshot, not a purchasing recommendation. 
 The review discusses ten commonly used resources or source families:
 
 - **FiQA:** financial opinion mining and question-answering material drawn from news and microblogs.
-- **Financial PhraseBank:** sentence-level financial sentiment labels.
+- **Financial PhraseBank:** sentence-level financial sentiment with three labels: positive, negative, and neutral. The article additionally prints “uncertain,” but that is not a native Financial PhraseBank class.
 - **SEC EDGAR filings:** large-scale US regulatory filings for long-document tasks.
 - **Financial Narrative Summarization (FNS):** annual-report narrative summarization.
 - **Tadawul ESG reports:** bilingual Arabic–English sustainability and ESG disclosures.
 - **Refinitiv ESG corpus:** licensed ESG indicators, narratives, and controversies.
 - **Bloomberg financial news:** proprietary financial news used for sentiment and event analysis.
-- **FinCausal:** annotated cause–effect relations in financial text.
+- **FinCausal:** annotated cause–effect relations in financial text. The FinCausal 2020/2022 resource discussed by the paper is English; later FinCausal editions added Spanish. The article's statement that the task targets Chinese, Arabic, and English should not be used as dataset documentation.
 - **Arabic financial news resources:** Arabic-native financial sentiment and aspect analysis.
-- **Corporate financial information extraction corpora:** large narrative resources for extraction and cross-lingual analysis.
+- **CFIE (Corporate Financial Information Environment):** Lancaster University's research programme and resources for analyzing corporate financial narratives. The article expands the acronym as “Corporate Financial Information Extraction”; the CFIE project page confirms “Environment.”
+
+Authoritative correction sources: [Financial PhraseBank article](https://doi.org/10.1002/asi.23062), [FinCausal 2020 task paper](https://aclanthology.org/2020.fnp-1.3/), and [Lancaster CFIE project](https://ucrel.lancs.ac.uk/cfie/).
 
 ## Dataset caveats
 

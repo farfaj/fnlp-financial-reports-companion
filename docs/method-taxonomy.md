@@ -1,5 +1,15 @@
 # Method taxonomy
 
+## How the paper's taxonomies relate
+
+The publication uses three views that should not be treated as identical:
+
+- **Figure 5** displays six boxes: Machine Learning, Ensemble Learning, Deep Learning, Transformer Models, Large Language Models, and eXplainable AI.
+- The surrounding text calls these the review's “five pillars,” creating a visible count inconsistency with the six boxes.
+- **Table 5**, which supplies the 231-study quantitative distribution, uses five mutually exclusive categories: Traditional ML (including SVM/RF/XGBoost and therefore ensemble methods), Deep learning, Transformer-based models, LLM-based methods, and Hybrid/Document AI.
+
+The seven sections below are a **companion synthesis for navigation, not seven mutually exclusive paper categories**. They separate important layers that the paper discusses across sections. Do not attach Table 5 counts directly to these seven sections: ensembles belong inside Traditional ML in Table 5, while Hybrid/Document AI is counted separately there.
+
 ## 1. Traditional machine learning
 
 Classical pipelines use lexical counts, TF–IDF, sentiment/readability measures, topic features, named entities, and financial ratios with classifiers such as logistic regression, SVM, random forests, and gradient boosting.
@@ -55,6 +65,8 @@ Promising directions include:
 - human-in-the-loop validation and bias audits.
 
 ## Cross-cutting evaluation dimensions
+
+> **Companion synthesis, not a finding of the paper.** This table turns evaluation concerns discussed across the review into a practical checklist; it is not reproduced from the article.
 
 Every method family should be assessed across more than predictive accuracy:
 

@@ -20,13 +20,24 @@ The review excludes purely numerical forecasting and papers that are redundant o
 
 ## Selection process
 
-The paper describes three main selection steps:
+The prose describes three main selection steps:
 
 1. title and abstract screening;
 2. full-text screening;
 3. relevance selection supported by backward and forward citation tracking.
 
-The PRISMA-style flow in the paper begins with 1,024 identified records, screens 886 titles/abstracts, assesses 346 full texts, and retains **231 studies** in the final review corpus. Readers should consult the published flow diagram for every exclusion count and its authoritative presentation.
+Figure 4 instead places citation tracking at the identification stage. Reading the numerical flow consistently gives:
+
+- **1,110 records identified:** 1,024 from database searching plus 86 from citation tracking and reference lists;
+- **224 duplicates removed (derived):** 886 records remained for title/abstract screening;
+- **540 excluded** at title/abstract screening;
+- **346 full texts assessed**;
+- **115 full texts excluded:** 42 out of scope, 27 numerical studies, 22 not FNLP studies, and 24 with insufficient methodology;
+- **231 studies included**.
+
+Figure 4 itself labels `886` as “Duplicate records removed.” That label conflicts with the next box, which also reports 886 records screened, and with the arithmetic above. This companion treats 886 as the post-deduplication count and 224 as the implied duplicates removed. See [`data/search_flow_counts.csv`](../data/search_flow_counts.csv).
+
+The difference in citation-tracking order is preserved as a presentation inconsistency: the prose calls it the third selection step, while Figure 4 shows it during identification.
 
 ## Corpus profile
 
@@ -73,6 +84,6 @@ Machine-readable versions are in [`data/review_counts_by_year.csv`](../data/revi
 
 - The CSVs are aggregate transcriptions, not the underlying screening database.
 - Category totals describe the paper's review design; they should not be treated as a universal census of FNLP.
-- The paper's references and the final screened corpus serve different purposes. A reference list is not automatically a study-level extraction sheet.
-- The 2026 count reflects the paper's stated coverage and publication timeline, not a complete year-end census.
+- The article reports a 231-study screened corpus but does not publish a study-level extraction sheet linking all included studies to citations, method categories, and application categories. The reference list also includes contextual and tool sources. A 231-row manifest therefore cannot be reconstructed reliably from the publication alone.
+- Six included studies are assigned to 2026 even though the manuscript was received on 19 November 2025. The article does not explain this timing; they may have been added or updated during revision, but that is an inference rather than a reported fact.
 

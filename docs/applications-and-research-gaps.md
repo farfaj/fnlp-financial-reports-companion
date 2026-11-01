@@ -2,7 +2,7 @@
 
 ## Application areas
 
-The paper groups FNLP use into connected decision-support areas:
+Section 9 of the paper presents seven connected decision-support areas:
 
 - **Policy and finance insight:** identify policy-relevant statements, sustainability commitments, and investment themes.
 - **Transparency and accountability:** extract facts and detect inconsistencies across narrative, tables, periods, and external standards.
@@ -11,8 +11,8 @@ The paper groups FNLP use into connected decision-support areas:
 - **ESG benchmarking:** normalize metrics and compare qualitative and quantitative disclosures across companies and sectors.
 - **Regulatory compliance monitoring:** identify missing disclosures, anomalies, and deviations from reporting requirements.
 - **Investor decision support:** structure entities, relations, risks, and strategies from long reports.
-- **Fraud, distress, and irregularity detection:** combine narrative cues with financial variables and network information.
-- **Summarization and question answering:** help users navigate long financial documents with evidence-grounded responses.
+
+Table 4 separately counts **fraud/manipulation detection**, **summarization of financial narratives**, and **question answering/reasoning** as review-corpus application categories. They are not additional subsections of Section 9.
 
 These applications support review and prioritization. They do not remove the need for professional judgment.
 
@@ -44,7 +44,7 @@ High-stakes systems need domain-meaningful explanations, bias assessment, human 
 
 ## Research agenda
 
-The review supports the following priorities:
+The paper supports the following priorities:
 
 1. standardized benchmarks spanning reports, ESG disclosures, languages, layouts, and markets;
 2. domain-adaptive pretraining and morphology-aware Arabic processing;
@@ -52,12 +52,14 @@ The review supports the following priorities:
 4. cross-market, cross-domain, cross-lingual, and longitudinal validation;
 5. explainable-by-design symbolic–neural architectures;
 6. task- and regulation-oriented explanations rather than generic feature attribution alone;
-7. RAG with source-aware retrieval, citation verification, and abstention;
+7. RAG with source-aware retrieval and citation-aware reasoning;
 8. model calibration, sensitivity analysis, and stress testing;
 9. human-in-the-loop workflows with auditable evidence and override paths;
 10. governance frameworks covering privacy, bias, cost, maintenance, and regulatory change.
 
 ## A useful deployment gate
+
+> **Companion synthesis, not a finding of the paper.** The four-gate checklist below operationalizes themes discussed across the paper; the paper does not present this exact framework.
 
 Before an FNLP prototype influences a financial, audit, compliance, or ESG decision, require affirmative evidence for all four gates:
 

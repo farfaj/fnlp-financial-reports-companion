@@ -11,6 +11,7 @@
 | Accepted | 3 February 2026 |
 | Published online | 28 February 2026 |
 | DOI | [10.1007/s13369-026-11157-6](https://doi.org/10.1007/s13369-026-11157-6) |
+| Full-text read link | [Springer Nature SharedIt](https://link.springer.com/epdf/10.1007/s13369-026-11157-6?sharing_token=fPcOKmNXc7UOaTEdiK5--_e4RwlQNchNByi7wbcMAY7Hi1hWyzeaoKPAOyZMoMkVcPPZU5svGbGS54KZomjzEByIH4UMJeLFNPhNOycslOJWqeC7myozvWibW0ofr-FkTQPv77BEIkhwN9cUVjbR-OIejJbI1Lv3Jk5z1kAXmcM%3D) |
 | Funding reported | King Faisal University, Grant KFU260911 |
 | Data availability | The article reports that no datasets were generated or analyzed during the study |
 
@@ -50,7 +51,7 @@ The seven research questions can be read as four connected themes:
 - Transformers are the largest method category in the review corpus, but stronger prediction does not remove concerns about auditability, domain shift, latency, cost, or data leakage.
 - Document layout, tables, OCR quality, cross-references, and numerical context are first-order modeling problems in financial reports.
 - Domain grounding through financial terminology, ontologies, ESG frameworks, and regulatory standards is necessary for dependable use.
-- Arabic financial NLP remains under-resourced. Morphology, clitics, specialized terminology, transliteration, code-switching, and differences between regulatory contexts make naive cross-lingual transfer unreliable.
+- Arabic financial NLP remains under-resourced. Morphology, clitics, specialized terminology, transliteration, and differences between regulatory contexts make naive cross-lingual transfer unreliable.
 - Evaluation remains fragmented: many studies use narrow datasets or single splits, and cross-market, cross-domain, cross-lingual, and longitudinal validation are uncommon.
 - High-stakes deployment requires explanations that are meaningful to auditors and regulators, source traceability, human review, robustness testing, and governance-aware evaluation.
 

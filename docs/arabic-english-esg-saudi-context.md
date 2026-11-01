@@ -10,14 +10,13 @@ Saudi Vision 2030, the Capital Market Authority, and Saudi Exchange (Tadawul) re
 
 Arabic–English reports can differ in layout, segmentation, terminology, and the level of detail disclosed. A dependable pipeline must distinguish genuine semantic inconsistency from ordinary translation or formatting variation.
 
-Key Arabic NLP challenges described in the paper include:
+Arabic NLP challenges described in the paper include:
 
 - root-and-pattern morphology;
 - attached prefixes, suffixes, and clitics;
 - tokenization fragmentation in subword models;
 - specialized finance and ESG terminology;
-- English transliteration and code-switching;
-- right-to-left and mixed-direction layout;
+- English transliteration;
 - limited standardized Arabic financial benchmarks;
 - regulatory and cultural differences that weaken direct transfer from English models.
 
@@ -34,6 +33,8 @@ Financial and sustainability disclosures combine quantitative metrics with narra
 - cross-language alignment that preserves regulatory meaning.
 
 ## Suggested evaluation design
+
+> **Companion synthesis, not a finding of the paper.** The benchmark design below translates the paper's multilingual and regional concerns into a proposed evaluation plan.
 
 A Saudi bilingual FNLP benchmark should separate and report:
 
